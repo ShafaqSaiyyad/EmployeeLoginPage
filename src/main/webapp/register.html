@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>USER REGISTRATION FROM</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.login-container {
+	width: 600px;
+	margin: 100px auto;
+	padding: 20px;
+	border: 2px solid #ccc;
+	border-radius: 15px;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+}
+
+input[type="text"], input[type="password"], button[type="submit"] {
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+button[type="submit"] {
+	background-color: red;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+	background-color: #0056b3;
+	
+} 
+
+a {
+	text-decoration: none;
+	color: #007bff;
+	display: block;
+	text-align: center;
+}
+
+a:hover {
+	color: #0056b3;
+}
+</style>
+</head>
+<body>
+	<form action="reg" method="post" class="login-container">
+		<h1>REGISTER</h1>
+		<input type="text" name="userName" placeholder="Enter Username" required="required"><br> 
+		<input type="text" name="password" placeholder="Enter Password" required="required"><br>
+		<input type="text" name="address" placeholder="Enter Address" required="required"><br> 
+		<input type="text" name="mailId" placeholder="Enter Email Id" required="required"><br>
+		<input type="text" name="phno" placeholder="Enter Phone Number" required="required"><br> 
+		<input type="text" name="state" placeholder="Enter State" required="required"><br> 
+		<input type="text" name="country" placeholder="Enter Country" required="required"><br>
+		<button type="submit">SUBMIT</button>
+		<a href="index.html">HOMEPAGE</a>
+	</form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>USER REGISTRATION FORM</title>
+<style>
+    /* CSS styles for anchor tags */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: darkblue;
+}
+
+/* Additional styles for form */
+.login-container {
+    text-align: center; /* Center the content horizontally */
+}
+
+.login-container a.button {
+    margin-top: 20px; /* Add some space between the buttons and the form */
+}
+
+    /* CSS styles for form */
+    .login-container {
+        width: 600px;
+        margin: 100px auto;
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+    }
+    h1 {
+        text-align: center;
+        color: red;
+    }
+    form {
+        margin-top: 20px;
+    }
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Include padding and border in element's total width and height */
+    }
+    button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button[type="submit"]:hover {
+        background-color: darkblue;
+    }
+</style>
+
+</head>
+<body>
+<div class="login-container">
+        <h1>USER LOGIN</h1>
+        <form action="log" method="post">
+            <input type="text" name="uname" placeholder="USERNAME" required><br><br>
+            <input type="text" name="password" placeholder="PASSWORD" required><br><br>
+            <button type="submit">SUBMIT</button><br><br>
+            <a href="register.html">REGISTER</a>&nbsp &nbsp
+            <a href="ForgotPwd.html">FORGOT-PASSWORD</a>
+        </form>
+    </div>
+
+</body>
+</html>

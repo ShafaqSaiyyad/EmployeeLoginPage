@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>USER REGISTRATION FROM</title>
+<style>
+.login-container 
+{
+    /* Add your styles here */
+    width: 600px;
+        margin: 100px auto;
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+}
+
+input[type="text"], button {
+    /* Add your input and button styles here */
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+h1{
+	text-align: center;
+	color: blue;
+}
+
+button {
+    /* Additional button styles */
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+    <form action="update" method="post" class="login-container">
+    <h1>UPDATE USER DATA</h1>
+        <input type="text" name="name" placeholder="UPDATE NAME" required>
+        <input type="text" name="password" placeholder="UPDATE PASSWORD" required>
+        <input type="text" name="address" placeholder="UPDATE ADDRESS" required>
+        <input type="text" name="mailId" placeholder="UPDATE MAILID" required>
+        <input type="text" name="phno" placeholder="UPDATE PHONE NUMBER" required>
+        <input type="text" name="state" placeholder="UPDATE STATE" required>
+        <input type="text" name="country" placeholder="UPDATE COUNTRY" required>
+        <button>UPDATE</button>
+        <p>Helps you connect and share with the people in your life.!</p>
+    </form>
+</body>
+</html>
